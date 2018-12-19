@@ -15,7 +15,7 @@ setuptools.setup(
     keywords=" API, second language acquisition",
     
     dependency_link = [
-        "https://github.com/TWEApol/Flask-MonitoringDashboard/tarball/master#egg=my_flask_monitoringdashboard"
+        "git+https://github.com/TWEApol/Flask-MonitoringDashboard.git#egg=my_flask_monitoringdashboard"
     ],
     install_requires= [
         "my_flask_monitoringdashboard"
