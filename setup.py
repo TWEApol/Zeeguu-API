@@ -14,10 +14,11 @@ setuptools.setup(
     description="API for Zeeguu, a project that aims to accelerate vocabulary acquisition in a second language",
     keywords=" API, second language acquisition",
     
-    dependency_link = [
-        "git+https://github.com/TWEApol/Flask-MonitoringDashboard.git#egg=my_flask_monitoringdashboard"
-    ],
+    
     install_requires= [
-        "my_flask_monitoringdashboard"
+        "my_flask_monitoringdashboard==1.0.0"
+    ],
+    dependency_link = [
+        "https://github.com/TWEApol/Flask-MonitoringDashboard/tarball/master#egg=my_flask_monitoringdashboard-1.0.0"
     ],
 )
