@@ -16,9 +16,9 @@ setuptools.setup(
     
     
     install_requires= [
-        "my_flask_monitoringdashboard==1.0.0"
+        "my_flask_monitoringdashboard"
     ],
     dependency_links = [
-        "https://github.com/TWEApol/Flask-MonitoringDashboard/tarball/master#egg=my_flask_monitoringdashboard-1.0.0"
+        "https://github.com/TWEApol/Flask-MonitoringDashboard/tarball/master#egg=my_flask_monitoringdashboard"
     ],
 )
